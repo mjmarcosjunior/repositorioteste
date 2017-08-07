@@ -1,0 +1,131 @@
+@import url("fontes.css");
+
+.text-center{
+    text-align: center;
+}
+
+.blue{
+    background-color: #2790f2;
+    color: white;
+    font-family: "PT Sans Web";
+}
+
+
+h1, .h1{
+    font-family: Coolvetica;
+    font-size: 36px;
+}
+
+h1.big, .h1.big{
+    font-family: Coolvetica;
+    font-size: 48px;
+}
+
+h2, h2{
+    font-family: Coolvetica;
+    font-size: 28px;
+}
+
+h3, h4, h5, h6{
+    font-family: "PT Sans Web";
+    font-size: 20px;
+}
+
+.recovery-area{
+    position: relative;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.recovery-area .logo{
+    position: relative;
+    top: 20px;
+}
+
+.recovery-area{
+    margin-top: 120px;
+}
+
+.recovery-area .logo img{
+    display: block;
+    max-width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.recovery-form{
+    padding: 30px 30px;
+    background-color: white;
+    color: #454545;
+    min-height: 300px;
+    border-radius: 5px;
+}
+
+.recovery-form label{
+    display: block;
+}
+
+.recovery-form input{
+    width: 90%;
+    display: block;
+    height: 40px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    background-color: #f7f7f7;
+    color: #969696;
+    border: solid 1px currentColor;
+    border-radius: 5px;
+    padding-left: 15px;
+    font-size: 16px;
+}
+
+.recovery-form button, .recovery-form .btn{
+    font-size: 20px;
+    display: block;
+    background-color: orangered;
+    color: white;
+    border-radius: 25px;
+    padding: 10px 50px;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.input-area{
+    margin-top: 25px;
+}
+
+.input-area span{
+    display: block;
+    text-align: center;
+}
+.input-area span > a, .input-area span > a:visited{
+    text-decoration: none;
+    color: currentColor;
+}
+
+@media (max-width: 768px){
+    
+    .recovery-area{
+        margin-top: 100px;
+    }
+
+    .recovery-form button, .recovery-form .btn{
+        font-size: 14px;
+    }
+
+    .recovery-form h1{
+        font-size: 22px;
+    }
+
+
+    .recovery-area .logo{
+        position: relative;
+        top: -50px;
+    }
+
+}

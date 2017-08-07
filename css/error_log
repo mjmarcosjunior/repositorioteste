@@ -1,0 +1,1 @@
+[21-Jul-2017 01:44:19 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/roihero/public_html/lite/dashboard/resource/resource_notifications.php on line 37

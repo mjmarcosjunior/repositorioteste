@@ -1,0 +1,145 @@
+@import url('fontes.css');
+
+body{
+    background-color: #2790f2;
+    color: white;
+    font-family: "PT Web Sans";
+    overflow: hidden;
+}
+
+.corpo{
+    display: block;
+    padding-top: 5%;
+}
+
+.login-area{
+    margin-top: 40px;
+    display: block;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.login-area img{
+    max-width: 200px;
+    display: block;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.login-area label{
+    font-size: 10pt;
+    display: block;
+}
+.login-area input{
+    display: block;
+    margin:5px auto 15px auto;
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 10px;
+    color: #595959;
+}
+
+.login-button-group button.login{
+    display: block;
+    font-size: 14pt;
+    font-family: "PT Web Sans";
+    border-radius: 20px;
+    background-color: orangered;
+    color: white;
+    border:none;
+    width: 220px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+button.login:active{
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+
+.login-button-group span{
+    font-size: 10pt;
+    display: block;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.login-button-group button.facebook-login{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #3d5c99;
+    border: none;
+    height: 40px;
+    widows: 100px;
+    color: white;
+    padding: 12px 15px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+button.facebook-login:active{
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+
+button:active{
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.teste-gratis{
+    display: block;
+    padding-top: 15px;   
+}
+
+img.icone{
+    height: 20px;
+    width: auto;
+    box-sizing: border-box;
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+}
+.teste-gratis button{
+    background-color: #2790f2;
+    color: white;
+    border:solid 1px white;
+    border-radius: 15px;
+    padding: 5px 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+hr.gradiente { 
+  border: 0; 
+  height: 1px; 
+  background-image: linear-gradient(left, #8c8b8b, #f0f0f0, #8c8b8b);
+  background-image: -webkit-linear-gradient(left, #8c8b8b, #f0f0f0, #8c8b8b);
+  background-image: -moz-linear-gradient(left, #8c8b8b, #f0f0f0, #8c8b8b);
+  background-image: -ms-linear-gradient(left, #8c8b8b, #f0f0f0, #8c8b8b);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+}
+
+input.error{
+    border-top: 2px solid red;
+    border-left: 2px solid red;
+    border-bottom: 2px solid red;
+    border-right: 2px solid red;
+}
+
+@media (max-width: 768px){
+    .login-form span{
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
